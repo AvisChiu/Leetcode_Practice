@@ -12,7 +12,7 @@ while a in s or b in s or c in s:
     s = s.replace(b,'')
     s = s.replace(b,'')
 ```
-*方法二：*
+*方法二：*   
 構造字典 Dictionary
 ```
 dic = {}
@@ -26,7 +26,9 @@ dic["}"] = -3
 生成一個 Stack ，之後作業都在 Stack 上面做。   
 
 *邏輯*
-<div align=center> <img src="https://github.com/AvisChiu/Leetcode_Practice/blob/master/020.有效的括號(*)/figure1.png" width="800",height="800"/></div>  
+<div align=center> <img src="https://github.com/AvisChiu/Leetcode_Practice/blob/master/020.有效的括號(*)/figure1.png" width="800",height="800"/></div>
+<br/>
+
 ```
 for i in s[1:]:
     if re==[]:
@@ -36,6 +38,7 @@ for i in s[1:]:
     else:
         re.append(dic[i])
 return re==[]
+
 ```
 
 
