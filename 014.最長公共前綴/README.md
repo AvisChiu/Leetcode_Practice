@@ -28,7 +28,7 @@ for i in range(c):
         break
 ```
 *Note
---
+
 因為是最長前綴，以下情況不需要考慮。
 ```
 ["flow","aafl"]
