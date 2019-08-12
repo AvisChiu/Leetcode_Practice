@@ -23,7 +23,21 @@ dic["]"] = -2
 dic["{"] = 3
 dic["}"] = -3
 ```
-生成一個 List ，之後作業都在 List 上面做。   
+生成一個 Stack ，之後作業都在 Stack 上面做。   
 
-<div align=center> <img src="https://https://github.com/AvisChiu/Leetcode_Practice/blob/master/020.%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E8%99%9F(*)/figure1.png" width="800",height="800"/></div>  
+*邏輯*
+<div align=center> <img src="https://github.com/AvisChiu/Leetcode_Practice/blob/master/020.有效的括號(*)/figure1.png" width="800",height="800"/></div>  
+```
+for i in s[1:]:
+    if re==[]:
+        re.append(dic[i])
+    elif dic[i]+re[-1]==0:
+        re.pop()
+    else:
+        re.append(dic[i])
+return re==[]
+```
+
+
+
 
