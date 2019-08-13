@@ -33,3 +33,5 @@ for j in range(len(nums)):
       nums[i] = nums[j]
 ```
 
+![image](https://github.com/AvisChiu/Leetcode_Practice/blob/master/026.%E5%88%AA%E9%99%A4%E6%8E%92%E5%BA%8F%E6%95%B8%E7%B5%84%E4%B8%AD%E7%9A%84%E9%87%8D%E8%A4%87%E9%A0%85/example%20.gif)
+
