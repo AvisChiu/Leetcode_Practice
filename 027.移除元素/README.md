@@ -20,3 +20,5 @@ return pin
 ```
 意思就是說，正常歷邊 List，如果元素不等於禁忌值，則 指標跟著一起滑動。   
 若元素等於禁忌值，則把指標留在當前位置。
+
+![image](https://github.com/AvisChiu/Leetcode_Practice/blob/master/027.%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0/027.gif)
