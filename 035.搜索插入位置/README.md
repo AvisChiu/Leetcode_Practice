@@ -43,3 +43,5 @@ while left <= right:
       return mid
 return left
 ```
+
+![image](https://github.com/AvisChiu/Leetcode_Practice/blob/master/035.%E6%90%9C%E7%B4%A2%E6%8F%92%E5%85%A5%E4%BD%8D%E7%BD%AE/binary_search.gif)
