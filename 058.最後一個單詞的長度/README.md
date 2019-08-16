@@ -33,12 +33,12 @@ return end - start
 --
 從末位開始歷邊，找到第一個不是空格的位置，即 end      
 然後設置一個指標 start = end，用來從尾到頭歷邊不是空格的元素。   
-</br>
 
+</br>
 ```
 while start >= 0 and s[start] != " ":
     start -= 1
 ```
-
+</br>
 最後的答案就是，start 走了多少步，回看 end 的位置。   
 兩者的差即為最後一個單詞的長度。
