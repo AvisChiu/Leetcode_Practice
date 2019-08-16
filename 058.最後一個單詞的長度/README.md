@@ -39,6 +39,6 @@ return end - start
 while start >= 0 and s[start] != " ":
     start -= 1
 ```
-</br>
+
 最後的答案就是，start 走了多少步，回看 end 的位置。   
 兩者的差即為最後一個單詞的長度。
