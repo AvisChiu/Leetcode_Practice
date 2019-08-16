@@ -12,9 +12,10 @@ return(len(tmp[-1]))
 ```
 </br>
 不用任何工具的話，就要從一種特殊狀況入手:    
-即當字串末尾為空格的情況。   
-具體解決辦法如下（參考了題解）   
+即當字串末尾為空格的情況。    
+具體解決辦法如下（參考了題解）     
 </br>
+
 ```
 end = len(s) - 1
 while end >= 0 and s[end] == " ":
@@ -25,6 +26,7 @@ while start >= 0 and s[start] != " ":
     start -= 1
 return end - start
 ```
+
 </br>
 *解釋*
 --
