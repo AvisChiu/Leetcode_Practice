@@ -29,10 +29,11 @@ return end - start
 ```
 
 </br>
-*解釋*
+*解釋*   
 從末位開始歷邊，找到第一個不是空格的位置，即 end。       
-然後設置一個指標 start = end，用來從尾到頭歷邊不是空格的元素。    
-
+然後設置一個指標 start = end，    
+用來從尾到頭歷邊不是空格的元素。    
+</br>
 
 ```
 while start >= 0 and s[start] != " ":
