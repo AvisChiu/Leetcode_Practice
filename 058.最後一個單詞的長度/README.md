@@ -10,12 +10,12 @@ if len(tmp) == 0:
     return 0
 return(len(tmp[-1]))
 ```
-</br>
+
 不用任何工具的話，就要從一種特殊狀況入手:    
 即當字串末尾為空格的情況。    
 具體解決辦法如下（參考了題解）     
 
-</br>
+
 
 ```
 end = len(s) - 1
@@ -28,12 +28,12 @@ while start >= 0 and s[start] != " ":
 return end - start
 ```
 
-</br>
+
 *解釋*   
 從末位開始歷邊，找到第一個不是空格的位置，即 end。       
 然後設置一個指標 start = end，    
 用來從尾到頭歷邊不是空格的元素。    
-</br>
+
 
 ```
 while start >= 0 and s[start] != " ":
