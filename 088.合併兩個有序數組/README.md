@@ -32,7 +32,9 @@ while pin1 < m and pin2 < n:
         pin2 = pin2 + 1
 ```
 
-while 結束之後，需要想到的是，
+while 結束之後，需要想到的是，    
+</br>
+
 *某一個指針已經把某一個 List 歷邊，但存在另一個還沒有歷邊的 List*
 --
 找出還沒有歷邊完全的 List，加入到 nums1
