@@ -28,6 +28,7 @@ for i in words:
 ```
 中間有用到一個 List 去存符合要求的單詞。（先存下來，不符合再刪掉）
 </br>
+
 Note
 --
 需要注意 dictionary 的用法，每次進入 for 都要初始一份 dictionary。   
