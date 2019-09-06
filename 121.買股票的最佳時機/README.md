@@ -25,6 +25,7 @@ MIN
 <br/>
 <br/>
 **版本 2**
+
 ```
 income = 0
 pin = prices[0]
