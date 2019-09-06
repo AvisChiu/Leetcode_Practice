@@ -9,11 +9,14 @@ for i in range(1, len(prices)):
     cur_min = min(cur_min, prices[i])
 ```
 ![image](https://github.com/AvisChiu/Leetcode_Practice/blob/master/121.買股票的最佳時機/stock.gif)
+<br/>
 
 MIN
 --
-指的是紀錄下掃過的更小的值。
+
+指的是紀錄下掃過的更小的值。  
 <br/>
+
 收益 res
 --
 指的是遇到收益更大的，即把當前的收益值覆蓋掉。
