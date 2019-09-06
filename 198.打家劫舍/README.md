@@ -32,16 +32,25 @@ if n == 0:
 if n <= 2:
     return max(nums)
 ```
-
-**因此考慮大於兩間房間的邏輯**
+</br>
+* **因此考慮大於兩間房間的邏輯**
 
 ```
 pin = 3
-dp = [nums[0]] + [nums[1]] + [nums[0] + nums[2]] + [0] * (n-3)
+dp = [nums[0]] + [nums[1]] + [nums[0] + nums[2]] + [0] * (n-3)  // 基底 [1 2 4 0]
 ```
-
-**原始的記憶體**
+</br>
+* **原始的記憶體**
 
 <div align=center> <img src="https://github.com/AvisChiu/Leetcode_Practice/blob/master/198.打家劫舍/init.png" width="800",height="800"/></div>
+</br>
+
+* **核心邏輯: 每間房子都只看前面跨一步來的和跨兩步來的，把金額加總**
+
+```
+while pin < n:
+    dp[pin] = max(dp[pin-2]+nums[pin], dp[pin-3]+nums[pin])
+    pin += 1
+```
 
 
