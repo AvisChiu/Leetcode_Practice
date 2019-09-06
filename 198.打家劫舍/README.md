@@ -18,8 +18,8 @@
 
 </br>
 
-總結一些步驟
---
+* **總結一些步驟**
+
 根據前面的作者分析，盜賊可以跨一個房間或者跨兩個房間。那麼為什麼不可以跨三個房間呢 ？      
 <div align=center> <img src="https://github.com/AvisChiu/Leetcode_Practice/blob/master/198.打家劫舍/figure1.png" width="800",height="800"/></div>
 分析兩種特殊情況：
@@ -32,11 +32,14 @@ if n == 0:
 if n <= 2:
     return max(nums)
 ```
+
 **因此考慮大於兩間房間的邏輯**
+
 ```
 pin = 3
 dp = [nums[0]] + [nums[1]] + [nums[0] + nums[2]] + [0] * (n-3)
 ```
+
 **原始的記憶體**
 
 <div align=center> <img src="https://github.com/AvisChiu/Leetcode_Practice/blob/master/198.打家劫舍/init.png" width="800",height="800"/></div>
