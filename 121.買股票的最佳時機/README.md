@@ -39,6 +39,7 @@ for i in range(1,len(prices)):
 ```
 
 <br/>
+
 ```
 [7,3,6,2,5]
 ```
