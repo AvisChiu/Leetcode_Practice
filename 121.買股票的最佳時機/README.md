@@ -20,3 +20,19 @@ MIN
 收益 res
 --
 指的是遇到收益更大的，即把當前的收益值覆蓋掉。
+
+<br/>
+<br/>
+<br/>
+**版本 2**
+```
+income = 0
+pin = prices[0]
+        
+for i in range(1,len(prices)):
+    if prices[i] - pin > income:
+        income = prices[i] - pin
+    if prices[i] < pin:
+        pin = prices[i]
+                
+```
